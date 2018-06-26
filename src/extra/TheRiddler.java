@@ -21,20 +21,20 @@ public static void main(String[] args) {
 	}
 	String riddlec = JOptionPane.showInputDialog("What’s a golf clubs favorite type of music?");
 	if(riddlec.equals("Swing.")) {
-	score= score++;
+	score = score++;
 	}
 	else {
 		JOptionPane.showMessageDialog(null, "Loser. The answer was swing. Muahaha.");
 	}
 	String riddled = JOptionPane.showInputDialog("How do crazy people go through the forest?");
 	if(riddled.equals("They take the psycho path.")) {
-	score= score++;
+	score = score++;
 	}
 	else {
 		JOptionPane.showMessageDialog(null, "Loser. The answer was that they take the psycho path. Muahaha.");
 	}
 	
-	JOptionPane.showMessageDialog(null, "Your score this time was " + score + " .");
-	
+	JOptionPane.showMessageDialog(null, "Your score this time was " + score + " .");	
 }
 }
+
